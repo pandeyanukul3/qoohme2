@@ -14,6 +14,6 @@ app.get('/',(req,res)=>{
        to: 'whatsapp:+917489170399'
      })
     .then(message => console.log(message.sid));
-    res.redirect('http://www.m.qooh.me/Veevaa');
+    res.redirect('http://www.m.qooh.me/Veev');
 })
 app.listen(process.env.PORT,()=>console.log(`Listening on http://localhost:${process.env.PORT}`))
